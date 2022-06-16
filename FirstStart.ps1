@@ -103,7 +103,8 @@ $requiredPackages = @([pscustomobject]@{Name="7zip.install";Trust=$False},
                       [pscustomobject]@{Name="spotify";Trust=$True}
                       [pscustomobject]@{Name="vlc";Trust=$True}
                       [pscustomobject]@{Name="vlc-skins";Trust=$True}
-                      [pscustomobject]@{Name="vmwareworkstation";Trust=$True})
+                      [pscustomobject]@{Name="vmwareworkstation";Trust=$True},
+		      [pscustomobject]@{Name="microsoft-windows-terminal";Trust=$True})
 
 # Load installed packages
 $installedPackages = New-Object Collections.Generic.List[String]
